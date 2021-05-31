@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="fo-dicom" Version="4.0.7" />
+    <PackageReference Include="fo-dicom.Codecs" Version="5.0.0-beta6" />
+    <PackageReference Include="fo-dicom.Desktop" Version="4.0.7" />
+    <PackageReference Include="fo-dicom.Drawing" Version="4.0.7" />
+    <PackageReference Include="fo-dicom.ImageSharp" Version="4.0.7" />
+    <PackageReference Include="fo-dicom.NetCore" Version="4.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="PresentationCore">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\PresentationCore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

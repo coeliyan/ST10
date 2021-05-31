@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ST10-Syg", "ST10-Syg\ST10-Syg.csproj", "{9216BFFE-FA8E-4D0B-A0BF-823036A0384C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DICOMtest", "..\..\DICOMtest\DICOMtest\DICOMtest\DICOMtest.csproj", "{CDB85065-019F-4F5F-8FB0-FF7D0FECC6EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9216BFFE-FA8E-4D0B-A0BF-823036A0384C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9216BFFE-FA8E-4D0B-A0BF-823036A0384C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9216BFFE-FA8E-4D0B-A0BF-823036A0384C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9216BFFE-FA8E-4D0B-A0BF-823036A0384C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDB85065-019F-4F5F-8FB0-FF7D0FECC6EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDB85065-019F-4F5F-8FB0-FF7D0FECC6EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDB85065-019F-4F5F-8FB0-FF7D0FECC6EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDB85065-019F-4F5F-8FB0-FF7D0FECC6EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4E1FD57-4F50-45FE-8EDD-9B1F2A87A2E4}
+	EndGlobalSection
+EndGlobal

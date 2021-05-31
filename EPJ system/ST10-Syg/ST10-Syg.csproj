@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>ST10_Syg</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hl7.Fhir.R4" Version="3.1.0" />
+    <PackageReference Include="Hl7.Fhir.Specification.R4" Version="3.1.0" />
+    <PackageReference Include="Hl7.FhirPath" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\DICOMtest\DICOMtest\DICOMtest\DICOMtest.csproj" />
+  </ItemGroup>
+
+</Project>
