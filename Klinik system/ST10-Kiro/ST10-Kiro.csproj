@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>ST10_Kiro</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Fhir.Metrics" Version="1.2.0" />
+    <PackageReference Include="Hl7.Fhir.ElementModel" Version="3.0.0" />
+    <PackageReference Include="Hl7.Fhir.R4" Version="3.0.0" />
+    <PackageReference Include="Hl7.Fhir.Serialization" Version="3.0.0" />
+    <PackageReference Include="Hl7.Fhir.Specification.R4" Version="3.0.0" />
+    <PackageReference Include="Hl7.Fhir.Support" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\DICOMtest2\DICOMtest2\DICOMtest2.csproj" />
+  </ItemGroup>
+
+</Project>
